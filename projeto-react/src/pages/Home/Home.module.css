@@ -1,0 +1,26 @@
+.homeContainer h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #aaa;
+  padding: 2rem;
+}
+
+.messageError {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  font-weight: bold;
+}
