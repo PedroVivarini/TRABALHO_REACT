@@ -3,8 +3,8 @@ import axios from 'axios';
 import ProductCard from '../../components/ProductCard/ProductCard';
 import styles from './Home.module.css';
 
-// !!! COLOQUE A URL DO MOCKAPI AQUI !!!
-const API_URL = 'https://690ca365a6d92d83e84ea2c3.mockapi.io';
+
+const API_URL = 'https://690ca365a6d92d83e84ea2c3.mockapi.io/users';
 
 const Home = () => {
   const [produtos, setProdutos] = useState([]);

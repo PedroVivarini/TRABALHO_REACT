@@ -3,8 +3,8 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import styles from './NewProduct.module.css';
 
-// !!! COLOQUE A MESMA URL DO MOCKAPI AQUI !!!
-const API_URL = 'https://690ca365a6d92d83e84ea2c3.mockapi.io';
+
+const API_URL = 'https://690ca365a6d92d83e84ea2c3.mockapi.io/users';
 
 const NewProduct = () => {
   const navigate = useNavigate();
